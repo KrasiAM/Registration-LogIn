@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formStyle.css">
+    <link rel="shortcut icon" href="#">
+    <title id="title">Registration/LogIn</title>
+</head>
+<body>
+    <div class="containder" id = "containder">
+        <div class="form-box">
+            <form id="form">
+                <h1 id = "h1">Registration</h1>
+                <div class="inputField">
+                    <label for="email">Email</label>
+                    <input id ="email", placeholder="Email">
+                </div>
+                <div class="inputField">
+                    <label for="password">Password</label>
+                    <input id ="password" type="password" placeholder="Password" >
+                </div>
+                <div class="inputField" id="comfirmPasswordFile">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input id ="confirmPassword"type="password" placeholder="Password">
+                </div>
+                <p id ='lostPassword'>Lost password <a href="#">Click Here!</a></p>
+                <p id = "error">Error!</p>
+                <button type='button', id ="singUp">Sing Up</button>
+                <button type='button', id ="singIn">Sing In</button>
+            </form>
+        </div>
+    </div>
+</body>
+    <script src = "changeForm.js"></script>
+    <script src = "checkingInput.js"></script>
+</html>
